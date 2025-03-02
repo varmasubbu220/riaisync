@@ -1,0 +1,63 @@
+# Byte-compiled and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+*.env
+*.venv
+
+# Dependency files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Logs and debugging files
+*.log
+logs/
+debug.log
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# FastAPI-specific files
+instance/
+*.db
+*.sqlite3
+*.sqlite
+migrations/
+alembic/
+
+# Docker-related files
+docker-compose.override.yml
+*.dockerfile
+*.tar
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Testing and coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# Build files
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Static and media files
+staticfiles/
+media/
+uploads/
